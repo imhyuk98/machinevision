@@ -1,3 +1,5 @@
+import cv2
+
 arr = []
 N = int(input("N: "))
 for I in range(N):
