@@ -4,15 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="91b1f16a-5246-4758-9084-ba246290abdb" name="Changes" comment="Edge detection( 1st order diff, 2nd order diff)">
-      <change afterPath="$PROJECT_DIR$/example18.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example19.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example20.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example21.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/interpolation.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/perspective.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/perspective2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/scaling.jpg" afterDir="false" />
+    <list default="true" id="91b1f16a-5246-4758-9084-ba246290abdb" name="Changes" comment="Opencv Example&#10;  Canny Edge&#10;  interpolatin">
+      <change afterPath="$PROJECT_DIR$/example25.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example26.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/harris.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/hough.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -67,6 +63,9 @@
     "Python.example19.executor": "Run",
     "Python.example20.executor": "Run",
     "Python.example21.executor": "Run",
+    "Python.example24.executor": "Run",
+    "Python.example25.executor": "Run",
+    "Python.example26.executor": "Run",
     "Python.example8.executor": "Run",
     "Python.example9.executor": "Run",
     "Python.tesk7.executor": "Run",
@@ -108,7 +107,9 @@
       <workItem from="1710739154610" duration="1079000" />
       <workItem from="1711341259512" duration="4333000" />
       <workItem from="1711513944776" duration="4439000" />
-      <workItem from="1711945961780" duration="4183000" />
+      <workItem from="1711945961780" duration="4421000" />
+      <workItem from="1712550904057" duration="353000" />
+      <workItem from="1712551272692" duration="3139000" />
     </task>
     <task id="LOCAL-00001" summary="Test 20240313">
       <option name="closed" value="true" />
@@ -158,7 +159,15 @@
       <option name="project" value="LOCAL" />
       <updated>1711518323811</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Opencv Example&#10;  Canny Edge&#10;  interpolatin">
+      <option name="closed" value="true" />
+      <created>1711950380124</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1711950380124</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -180,10 +189,12 @@
     <MESSAGE value="example 1" />
     <MESSAGE value="example 10" />
     <MESSAGE value="Edge detection( 1st order diff, 2nd order diff)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Edge detection( 1st order diff, 2nd order diff)" />
+    <MESSAGE value="Opencv Example&#10;  Canny Edge&#10;  interpolatin" />
+    <option name="LAST_COMMIT_MESSAGE" value="Opencv Example&#10;  Canny Edge&#10;  interpolatin" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/machinevision$example20.coverage" NAME="example20 Coverage Results" MODIFIED="1711949817127" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/machinevision$example26.coverage" NAME="example26 Coverage Results" MODIFIED="1712554488131" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/machinevision$example10.coverage" NAME="example10 Coverage Results" MODIFIED="1711344807510" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/machinevision$example13.coverage" NAME="example13 Coverage Results" MODIFIED="1711516772862" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/machinevision$example17.coverage" NAME="example17 Coverage Results" MODIFIED="1711518238672" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -194,8 +205,10 @@
     <SUITE FILE_PATH="coverage/machinevision$example18.coverage" NAME="example18 Coverage Results" MODIFIED="1711949850102" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/machinevision$tesk7.coverage" NAME="tesk7 Coverage Results" MODIFIED="1711341972207" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/machinevision$example12.coverage" NAME="example12 Coverage Results" MODIFIED="1711516081444" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/machinevision$example25.coverage" NAME="example25 Coverage Results" MODIFIED="1712553748618" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/machinevision$example21.coverage" NAME="example21 Coverage Results" MODIFIED="1711949857387" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/machinevision$example14.coverage" NAME="example14 Coverage Results" MODIFIED="1711517389845" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/machinevision$example24.coverage" NAME="example24 Coverage Results" MODIFIED="1712551284442" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/machinevision$example11.coverage" NAME="example11 Coverage Results" MODIFIED="1711514365481" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/machinevision$example8.coverage" NAME="example8 Coverage Results" MODIFIED="1711342788445" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
