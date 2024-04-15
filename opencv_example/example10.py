@@ -17,7 +17,7 @@ def draw_histo(hist, shape=(200, 256)):
         cv2.rectangle(hist_img, roi, 0, 1)
     return cv2.flip(hist_img, 0)
 
-image = cv2.imread("image/dst.jpg", cv2.IMREAD_GRAYSCALE)
+image = cv2.imread("../image/dst.jpg", cv2.IMREAD_GRAYSCALE)
 if image is None: raise Exception("영상 파일 읽기 오류")
 
 bsize, ranges = [64], [0, 256]

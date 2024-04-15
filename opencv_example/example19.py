@@ -25,7 +25,7 @@ def time_check(func, image, size, title):
     print(title, "t숳ㅇ시간 = %0.2f ms" % clapsed)
     return ret_img
 
-image = cv2.imread('image/scaling.jpg', cv2.IMREAD_GRAYSCALE)
+image = cv2.imread('../image/scaling.jpg', cv2.IMREAD_GRAYSCALE)
 if image is None : raise Exception("영상 파일을 읽기 에러")
 
 dst1 = scaling(image, (150, 200))

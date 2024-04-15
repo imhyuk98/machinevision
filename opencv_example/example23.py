@@ -1,6 +1,6 @@
 import numpy as np, cv2
 
-image = cv2.imread('image/perspective.jpg', cv2.IMREAD_GRAYSCALE)
+image = cv2.imread('../image/perspective.jpg', cv2.IMREAD_GRAYSCALE)
 if image is None: raise Exception("Could not read image")
 
 pts1 = np.float32([(80, 40), (315, 133), (75, 300), (335, 300)] )

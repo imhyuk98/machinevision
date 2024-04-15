@@ -28,15 +28,15 @@ def differential(image, data1, data2):
 
     return dst, dst1, dst2
 
-image = cv2.imread("image/edge.jpg", cv2.IMREAD_GRAYSCALE)
+image = cv2.imread("../image/edge.jpg", cv2.IMREAD_GRAYSCALE)
 if image is None: raise Exception("영상파일 읽기 오류")
 
-data1 = [0, 1, 0,
-         1, -4, 1,
-         0, 1, 0]
-data2 = [-1, -1, -1,
-         -1, 8, -1,
-         -1, -1, -1]
+data1 = [-1, 0, 1,
+         -2, 0, 2,
+         -1, 0, 1]
+data2 = [-1, -2, -1,
+         0, 0, 0,
+         1, 2, 1]
 
 dst, dst1, dst2 = differential(image, data1, data2)
 

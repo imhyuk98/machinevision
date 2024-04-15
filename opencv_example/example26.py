@@ -50,7 +50,7 @@ def onCornerHarris(thr):
     cv2.imshow("harris detect", dst)
 
 
-image = cv2.imread('image/harris.jpg', cv2.IMREAD_COLOR)
+image = cv2.imread('../image/harris.jpg', cv2.IMREAD_COLOR)
 if image is None: raise Exception("영상 파일 읽기 에러")
 
 blockSize, apertureSize = 4, 3  # 소벨 마스크 크기

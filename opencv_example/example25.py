@@ -53,7 +53,7 @@ def houghLines(src, rho, theta, thresh):
     lines   = select_lines(acc_dst, rho, theta, thresh)  # 직선 가져오기
     return lines
 
-image = cv2.imread('image/hough.jpg', cv2.IMREAD_GRAYSCALE)
+image = cv2.imread('../image/hough.jpg', cv2.IMREAD_GRAYSCALE)
 if image is None: raise Exception("영상 파일 읽기 에러")
 canny = cv2.Canny(image, 100, 200, 5)
 

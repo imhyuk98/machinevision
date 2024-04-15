@@ -34,7 +34,7 @@ def scaling_bilinear(img, size):
     return np.array(dst, img.dtype)
 
 
-image = cv2.imread('image/interpolation.jpg', cv2.IMREAD_GRAYSCALE)
+image = cv2.imread('../image/interpolation.jpg', cv2.IMREAD_GRAYSCALE)
 if image is None : raise Exception("영상 파일을 읽기 에러")
 
 size = (350, 400)

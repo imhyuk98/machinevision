@@ -14,7 +14,7 @@ def filter(image, mask):
             dst[i, j] = cv2.sumElems(tmp)[0]
     return dst
 
-image = cv2.imread("image/filter_sharpen.jpg", cv2.IMREAD_GRAYSCALE)
+image = cv2.imread("../image/filter_sharpen.jpg", cv2.IMREAD_GRAYSCALE)
 if image is None: raise Exception("영상파일 읽기 오류")
 
 data1 = [0, -1, 0,

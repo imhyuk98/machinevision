@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="91b1f16a-5246-4758-9084-ba246290abdb" name="Changes" comment="Opencv Example&#10;  Canny Edge&#10;  interpolatin">
-      <change afterPath="$PROJECT_DIR$/example25.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example26.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/harris.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/hough.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="91b1f16a-5246-4758-9084-ba246290abdb" name="Changes" comment="Opencv Example&#10;  harris&#10;  hough" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -109,7 +103,7 @@
       <workItem from="1711513944776" duration="4439000" />
       <workItem from="1711945961780" duration="4421000" />
       <workItem from="1712550904057" duration="353000" />
-      <workItem from="1712551272692" duration="3139000" />
+      <workItem from="1712551272692" duration="3206000" />
     </task>
     <task id="LOCAL-00001" summary="Test 20240313">
       <option name="closed" value="true" />
@@ -167,7 +161,15 @@
       <option name="project" value="LOCAL" />
       <updated>1711950380124</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Opencv Example&#10;  harris&#10;  hough">
+      <option name="closed" value="true" />
+      <created>1712554579616</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1712554579616</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -190,7 +192,8 @@
     <MESSAGE value="example 10" />
     <MESSAGE value="Edge detection( 1st order diff, 2nd order diff)" />
     <MESSAGE value="Opencv Example&#10;  Canny Edge&#10;  interpolatin" />
-    <option name="LAST_COMMIT_MESSAGE" value="Opencv Example&#10;  Canny Edge&#10;  interpolatin" />
+    <MESSAGE value="Opencv Example&#10;  harris&#10;  hough" />
+    <option name="LAST_COMMIT_MESSAGE" value="Opencv Example&#10;  harris&#10;  hough" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/machinevision$example20.coverage" NAME="example20 Coverage Results" MODIFIED="1711949817127" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />

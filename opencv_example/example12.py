@@ -30,7 +30,7 @@ def filter2(image, mask):
             dst[i, j] = sum
     return dst
 
-image = cv2.imread("image/filter_blur.jpg", cv2.IMREAD_GRAYSCALE)
+image = cv2.imread("../image/filter_blur.jpg", cv2.IMREAD_GRAYSCALE)
 if image is None: raise Exception("영상파일 읽기 오류")
 
 # data = [1/25, 1/25, 1/25, 1/25, 1/25,
