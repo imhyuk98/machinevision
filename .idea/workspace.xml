@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="91b1f16a-5246-4758-9084-ba246290abdb" name="Changes" comment="Opencv Example&#10;  harris&#10;  hough" />
+    <list default="true" id="91b1f16a-5246-4758-9084-ba246290abdb" name="Changes" comment="dic">
+      <change afterPath="$PROJECT_DIR$/opencv_example/example27.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -43,42 +45,44 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.example10.executor": "Run",
-    "Python.example11.executor": "Run",
-    "Python.example12.executor": "Run",
-    "Python.example13.executor": "Run",
-    "Python.example14.executor": "Run",
-    "Python.example15.executor": "Run",
-    "Python.example16.executor": "Run",
-    "Python.example17.executor": "Run",
-    "Python.example18.executor": "Run",
-    "Python.example19.executor": "Run",
-    "Python.example20.executor": "Run",
-    "Python.example21.executor": "Run",
-    "Python.example24.executor": "Run",
-    "Python.example25.executor": "Run",
-    "Python.example26.executor": "Run",
-    "Python.example8.executor": "Run",
-    "Python.example9.executor": "Run",
-    "Python.tesk7.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/knuser/Downloads/machinevision",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "service.view.auto.scroll.to.source": "true",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.example10.executor&quot;: &quot;Run&quot;,
+    &quot;Python.example11.executor&quot;: &quot;Run&quot;,
+    &quot;Python.example12.executor&quot;: &quot;Run&quot;,
+    &quot;Python.example13.executor&quot;: &quot;Run&quot;,
+    &quot;Python.example14.executor&quot;: &quot;Run&quot;,
+    &quot;Python.example15.executor&quot;: &quot;Run&quot;,
+    &quot;Python.example16.executor&quot;: &quot;Run&quot;,
+    &quot;Python.example17.executor&quot;: &quot;Run&quot;,
+    &quot;Python.example18.executor&quot;: &quot;Run&quot;,
+    &quot;Python.example19.executor&quot;: &quot;Run&quot;,
+    &quot;Python.example20.executor&quot;: &quot;Run&quot;,
+    &quot;Python.example21.executor&quot;: &quot;Run&quot;,
+    &quot;Python.example24.executor&quot;: &quot;Run&quot;,
+    &quot;Python.example25.executor&quot;: &quot;Run&quot;,
+    &quot;Python.example26.executor&quot;: &quot;Run&quot;,
+    &quot;Python.example8.executor&quot;: &quot;Run&quot;,
+    &quot;Python.example9.executor&quot;: &quot;Run&quot;,
+    &quot;Python.tesk7.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/knuser/Downloads/machinevision&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;service.view.auto.scroll.to.source&quot;: &quot;true&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\knuser\Downloads\machinevision\image" />
+      <recent name="C:\Users\knuser\Downloads\machinevision\opencv_example" />
+      <recent name="C:\Users\knuser\Downloads\machinevision\task" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -104,6 +108,7 @@
       <workItem from="1711945961780" duration="4421000" />
       <workItem from="1712550904057" duration="353000" />
       <workItem from="1712551272692" duration="3206000" />
+      <workItem from="1713155625697" duration="933000" />
     </task>
     <task id="LOCAL-00001" summary="Test 20240313">
       <option name="closed" value="true" />
@@ -169,7 +174,15 @@
       <option name="project" value="LOCAL" />
       <updated>1712554579616</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="dic">
+      <option name="closed" value="true" />
+      <created>1713157639066</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1713157639066</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -193,7 +206,8 @@
     <MESSAGE value="Edge detection( 1st order diff, 2nd order diff)" />
     <MESSAGE value="Opencv Example&#10;  Canny Edge&#10;  interpolatin" />
     <MESSAGE value="Opencv Example&#10;  harris&#10;  hough" />
-    <option name="LAST_COMMIT_MESSAGE" value="Opencv Example&#10;  harris&#10;  hough" />
+    <MESSAGE value="dic" />
+    <option name="LAST_COMMIT_MESSAGE" value="dic" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/machinevision$example20.coverage" NAME="example20 Coverage Results" MODIFIED="1711949817127" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
