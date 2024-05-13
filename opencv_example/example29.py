@@ -76,9 +76,28 @@ lr = 1e-3
 optim = Adam(model.parameters(), lr=lr)
 
 for epoch in range(100):
-    for data, labels in train_loader:
+    for data, label in train_loader:
         optim.zero_grad()
 
         preds = model(data.to(device))
 
         loss = nn.CrossEntropyLoss()(preds, label.to(device))
+        loss.backward()
+        optim.step()
+    if epoch==0 or epoch%10==9:
+        print(f"Epoch {epoch+1} loss: {loss.item()}")
+
+torch.save(model.state_dict(), 'CIFAR.pth')
+model.load_state_dict(torch.load('CIFAR.pth'))
+
+num_corr = 0
+
+with torch.no_grad():
+    for data, label in test_loader:
+
+        output = model(data.to(device))
+        preds = output.data.max(1)[1]
+        corr = preds.eq(label.to(device).data).sum().item()
+        num_corr += corr
+
+    print(f"Accuracy: {num_corr/len(test_loader)}")
