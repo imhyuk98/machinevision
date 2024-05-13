@@ -82,3 +82,9 @@ for epoch in range(100):
         preds = model(data.to(device))
 
         loss = nn.CrossEntropyLoss()(preds, label.to(device))
+        loss.backward()
+        optim.step()
+    if epoch==0 or epoch%10==9:
+        print(f"Epoch {epoch+1} loss:{loss.item()}")
+
+torch.save(model.state_dict(), "CIFAR.pth")
